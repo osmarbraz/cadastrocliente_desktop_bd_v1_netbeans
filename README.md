@@ -1,4 +1,4 @@
-# Sistema de Cadastro de Clientes para Desktop em Banco de Dados MySQL utilizando o padrão Factory Method para a IDE NetBeans.
+# Sistema de Cadastro de Clientes para Desktop em Banco de Dados MySQL utilizando DAO para a IDE NetBeans.
 
 ## Contextualização
 
