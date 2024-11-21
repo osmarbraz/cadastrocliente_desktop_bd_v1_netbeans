@@ -11,4 +11,23 @@
         <exec.mainClass>com.cadastrocliente_desktop_bd_v1_netbeas.Cadastrocliente_desktop_bd_v1_netbeas</exec.mainClass>
     </properties>
     <name>cadastrocliente_desktop_bd_v1_netbeans</name>
+    <!-- Plugins do Maven -->
+    <build>
+        <plugins>
+            <!-- Plugin para configurar o arquivo executável do projeto -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>3.3.0</version>
+                <configuration>
+                    <archive>
+                        <!-- Configura o programa principal do projeto -->
+                        <manifest>
+                            <mainClass>principal.Principal</mainClass>
+                        </manifest>
+                    </archive>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 </project>
